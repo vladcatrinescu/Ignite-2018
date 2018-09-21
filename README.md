@@ -21,7 +21,7 @@ Thank you for attending this theater session! The scripts, and CSS file can be d
 
 **Paid Training Ressources** 
 
-Free 3 Month Pluralsight Subscription: https://absolute-sharepoint.com/2015/12/free-pluralsight-6-month-subscription.html 
+**Free 3 Month Pluralsight Subscription**: https://absolute-sharepoint.com/2015/12/free-pluralsight-6-month-subscription.html 
  - Pluralsight Course: PowerShell for Office 365 :  http://spvlad.com/PowerShellO365 
  - Pluralsight Course: PowerShell Playbook for Office 365 : https://spvlad.com/PowerShellPlaybook
  - Pluralsight Course:  Reporting with PowerShell HTML and Enhanced HTML: http://spvlad.com/PSHTML 
