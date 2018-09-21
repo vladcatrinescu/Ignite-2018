@@ -18,10 +18,11 @@ Thank you for attending this theater session! The scripts, and CSS file can be d
  - Exchange: No Download
  - AzureADPreview:  https://www.powershellgallery.com/packages/AzureADPreview/2.0.1.18
 
-** Video Content**
-
+**Paid Training Ressources** 
+Free 3 Month Pluralsight Subscription: https://absolute-sharepoint.com/2015/12/free-pluralsight-6-month-subscription.html 
  - Pluralsight Course: PowerShell for Office 365 :  http://spvlad.com/PowerShellO365 
  - Pluralsight Course: PowerShell Playbook for Office 365 : https://spvlad.com/PowerShellPlaybook
+ - Pluralsight Course:  Reporting with PowerShell HTML and Enhanced HTML: http://spvlad.com/PSHTML 
  - Youtube: PowerShell for common Office 365 Operations:  https://www.youtube.com/watch?v=I2lj1rbzjCk
  - Book: Essential PowerShell for Office 365: Managing and Automating Skills for Improved Productivity
 	 - Amazon Com: http://amzn.to/2FsqX8y
@@ -53,5 +54,10 @@ This a list of blogs, or Microsoft Docs ressources on PowerShell for Office 365!
 
 
 ## BRK3273 -  From start to finish:  How to create your modern SharePoint site provisioning solution
+
+
+## BRK1109 -  Three must-have workflows with Microsoft Flow
+
+**Screenshots:** https://github.com/vladcatrinescu/Ignite-2018/blob/master/BRK1109/Flow%20Screenshots.docx?raw=true
 
 
