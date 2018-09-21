@@ -2,11 +2,10 @@
 
 Hello and welcome to the ressource page for my sessions at Ignite 2018! Below you can find different ressources for each of my sessions. Each session also has a folder in this repository that you can go in order to download the screenshots, scripts and other files I showed off during the conference! Click on the following shortcuts for easy access:
 
- 1. [THR2131 -  Three PowerShell reports every Office 365 admin needs to
-    have](#THR2131%20-%20%20Three%20PowerShell%20reports%20every%20Office%20365%20admin%20needs%20to%20have)
-    [BRK3273 - From start to finish: How to create your modern
-    SharePoint site provisioning
-    solution](BRK3273%20-%20%20From%20start%20to%20finish:%20%20How%20to%20create%20your%20modern%20SharePoint%20site%20provisioning%20solution)
+ 1. [THR2131 -  Three PowerShell reports every Office 365 admin needs to have](#THR2131%20-%20%20Three%20PowerShell%20reports%20every%20Office%20365%20admin%20needs%20to%20have)
+    
+ 2. [BRK3273 - From start to finish: How to create your modern SharePoint site provisioning solution](BRK3273%20-%20%20From%20start%20to%20finish:%20%20How%20to%20create%20your%20modern%20SharePoint%20site%20provisioning%20solution)
+ 
 
 ## THR2131 -  Three PowerShell reports every Office 365 admin needs to have
 
