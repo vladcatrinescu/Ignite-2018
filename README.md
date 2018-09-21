@@ -4,6 +4,7 @@ Hello and welcome to the ressource page for my sessions at Ignite 2018! Below yo
 
  1. [THR2131 -  Three PowerShell reports every Office 365 admin needs to have](https://github.com/vladcatrinescu/Ignite-2018#thr2131----three-powershell-reports-every-office-365-admin-needs-to-have)
  2. [BRK3273 - From start to finish: How to create your modern SharePoint site provisioning solution](https://github.com/vladcatrinescu/Ignite-2018#brk3273----from-start-to-finish--how-to-create-your-modern-sharepoint-site-provisioning-solution)
+ 3. [BRK1109 - Three must-have workflows with Microsoft Flow](https://github.com/vladcatrinescu/Ignite-2018#brk1109----three-must-have-workflows-with-microsoft-flow)
  
 
 ## THR2131 -  Three PowerShell reports every Office 365 admin needs to have
