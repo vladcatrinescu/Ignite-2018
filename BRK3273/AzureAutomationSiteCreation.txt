@@ -1,5 +1,6 @@
 #All of the PowerShell for getting data from Azure Storage comes from Brian Caauwe's post http://www.avtex.com/2018/06/azure-automation-provisioning/
 #This script was utilized during Ignite 2018 for a site provisioning 
+#There are multiple parameters that will need to be updated below
 
 
 [CmdletBinding()]
@@ -32,7 +33,7 @@ function Comm-CreateSite {
     Start-Sleep -Seconds 5
 
     #add theme
-    $sitedesign = Get-PnPSiteDesign | where {$_.Title -eq "Multicolor Theme"}
+    $sitedesign = Get-PnPSiteDesign | where {$_.Title -eq "ADDSITEDESIGNTITLE"}
     Invoke-PnPSiteDesign -Identity $sitedesign.Id  
 
     #add owner to group
@@ -79,7 +80,7 @@ function PM-CreateSite {
 
     #add site design
     Write-Output ("Adding site design")
-    $sitedesign = Get-PnPSiteDesign | where {$_.Title -eq "Project Site"}
+    $sitedesign = Get-PnPSiteDesign | where {$_.Title -eq "ADDSITEDESIGNTITLE"}
     Invoke-PnPSiteDesign -Identity $sitedesign.Id  
 
     #add owner to SharePoint group
@@ -87,7 +88,6 @@ function PM-CreateSite {
     Write-Output ("Updating SP Group owners")
     $ownergroup = Get-PnPGroup | where {$_.Title -like "*Owners*"}
     Add-PnPUserToGroup -LoginName $siteowner -Identity $ownergroup.Id
-    Add-PnPUserToGroup -LoginName "vlad@globomantics.org" -Identity $ownergroup.Id
 
     #apply pnp provisioning 
     Write-Output ("Applying PnP template")
@@ -108,15 +108,18 @@ function PM-CreateSite {
     Apply-PnPProvisioningTemplate -Path ("c:\temp\" + $fileName)
     Write-Output ("[[ Provisioning Template Applied ]]")
 
-    #add to project top nav
+    #add to project top nav of hub site
     Connect-PnPOnline -Url "https://domain.sharepoint.com/sites/sitename" -Credentials $cred
+	#the parent ID is the id of the term header that we want to add this as a sub header
     Add-PnPNavigationNode -Location TopNavigationBar -Title $sitetitle -Url $siteurl -Parent 2006
 
     #set logo
+	#This doesn't work with an App ID :( 
+	
     #$appId = Get-AutomationVariable -Name 'GroupAppId'
     #$appSecret = Get-AutomationVariable -Name 'GroupAppSecret'
     #Write-Output ("Connecting to MS Graph")
-    #Connect-PnPOnline -AppId $appId -AppSecret $appSecret -AADDomain 'globomantics.org'
+    #Connect-PnPOnline -AppId $appId -AppSecret $appSecret -AADDomain 'domain.com'
 
     #Write-Output ("Getting file '" + $logoname + "' from Azure Blob Store")
     #Get-AzureStorageBlobContent -Blob $logoname -Container $containerName -Destination ("c:\temp\" + $logoname) -Context $storageAccount
