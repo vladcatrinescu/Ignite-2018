@@ -6,6 +6,13 @@ Hello and welcome to the ressource page for my sessions at Ignite 2018! Below yo
  2. [BRK3273 - From start to finish: How to create your modern SharePoint site provisioning solution](https://github.com/vladcatrinescu/Ignite-2018#brk3273----from-start-to-finish--how-to-create-your-modern-sharepoint-site-provisioning-solution)
  3. [BRK1109 - Three must-have workflows with Microsoft Flow](https://github.com/vladcatrinescu/Ignite-2018#brk1109----three-must-have-workflows-with-microsoft-flow)
  
+## BRK3273 -  From start to finish: How to create your modern SharePoint site provisioning solution
+
+This section includes the PowerShell scripts utilized in the demo and ran via Azure Automation. Further would be be required to utilize this script in a way that Thank you to my co-presenter Drew Madelung to put together this breakout session with me. We utilized multiple tools to demo a modern SharePoint site provisioning solution using all cloud based solutions. 
+
+Drew Madelung contact info:
+dmadelung@outlook.com
+https://drewmadelung.com
 
 ## THR2131 -  Three PowerShell reports every Office 365 admin needs to have
 
@@ -37,6 +44,7 @@ Thank you for attending this theater session! The scripts, and CSS file can be d
 
 This a list of blogs, or Microsoft Docs ressources on PowerShell for Office 365! All those are free! This list is currently in construction, and will be better organized in the future!
 
+-   [Using Azure Automation for Modern SharePoint Site Provisioning](http://www.avtex.com/2018/06/azure-automation-provisioning/)
 -   [Why you need to use Office 365 PowerShell](https://docs.microsoft.com/en-us/office365/enterprise/powershell/why-you-need-to-use-office-365-powershell)
 -   [Connect to Office 365 PowerShell](https://docs.microsoft.com/en-us/office365/enterprise/powershell/connect-to-office-365-powershell)
 -   [Connecting to all Office 365 Services with PowerShell and Multi Factor Authentication](https://absolute-sharepoint.com/2018/03/connecting-to-all-office-365-services-with-powershell-and-multi-factor-authentication.html)
